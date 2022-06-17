@@ -261,7 +261,7 @@
     semver "^7.3.7"
     source-map-js "^1.0.1"
 
-"@ulixee/commons@2.0.0-alpha.5", "@ulixee/commons@^2.0.0-alpha.5":
+"@ulixee/commons@2.0.0-alpha.5":
   version "2.0.0-alpha.5"
   resolved "https://registry.yarnpkg.com/@ulixee/commons/-/commons-2.0.0-alpha.5.tgz#07116991c80dd8453d793193ba444a95d6ebe5df"
   integrity sha512-xa0wRYmcUVNQDtRcdcTiiC4aGbuccp450rRXqHA8biOWY+g8ZadT3a40X/6/YOQgkC2pKopJrnGtju6V7qRvMQ==
@@ -327,22 +327,7 @@
     "@unblocked-web/specifications" "2.0.0-alpha.2"
     nanoid "^3.1.30"
 
-"@ulixee/hero@^2.0.0-alpha.5":
-  version "2.0.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@ulixee/hero/-/hero-2.0.0-alpha.6.tgz#02f0e9f6a8354622491e75c4d53b0b0d9e682b89"
-  integrity sha512-QqC1w/HcwwBsjR92uV0kOhy5tRKCUCWPy02Rx8nH1Ym8H8uQeAIomOkNxX8lyWGPfUxTneECpwBk/dNJhGTdyQ==
-  dependencies:
-    "@ulixee/commons" "2.0.0-alpha.5"
-    "@ulixee/hero-interfaces" "2.0.0-alpha.6"
-    "@ulixee/hero-plugin-utils" "2.0.0-alpha.6"
-    "@ulixee/net" "2.0.0-alpha.5"
-    "@unblocked-web/js-path" "2.0.0-alpha.1"
-    "@unblocked-web/specifications" "2.0.0-alpha.2"
-    awaited-dom "1.4.0"
-    nanoid "^3.1.30"
-    ws "^7.4.6"
-
-"@ulixee/net@2.0.0-alpha.5", "@ulixee/net@^2.0.0-alpha.5":
+"@ulixee/net@2.0.0-alpha.5":
   version "2.0.0-alpha.5"
   resolved "https://registry.yarnpkg.com/@ulixee/net/-/net-2.0.0-alpha.5.tgz#cb5113bcf0eae9c268d9afc620457d1cb0884013"
   integrity sha512-FAXqg4aZ958sdvKkaDNXNMibw3F/jtxOKRvGX9La8TN9VXHaonWwk/OCyNBkark4W1bpD38hXqEAbpENXCUHTQ==
@@ -640,13 +625,6 @@ chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-chrono-node@^2.3.7:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/chrono-node/-/chrono-node-2.3.8.tgz#c53ab3a9fd55ec1f78623582570de07da2e23c6f"
-  integrity sha512-cOCUKFHkGKJ//2VK0Vjwd8qh/tDJNraZHYb4DNB48mRUyfL7ag9lCDXgos30fPmV1pha4sP4qHLYItKNS0YpRw==
-  dependencies:
-    dayjs "^1.10.0"
-
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
@@ -690,19 +668,6 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-csgostatsgg-scraper@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/csgostatsgg-scraper/-/csgostatsgg-scraper-1.5.0.tgz#519a8a13444228f4b45fd41fb7cf6c86de4e1c19"
-  integrity sha512-WpYhfZvIUAX/6a6MeAU4RIK8QKKh8Wh+c/soX4tT2bHOVosQ4fvrzElBo6Vk8sLv5WeKx0Qpkx6M6AFiNeKBXQ==
-  dependencies:
-    "@ulixee/commons" "^2.0.0-alpha.5"
-    "@ulixee/hero" "^2.0.0-alpha.5"
-    "@ulixee/net" "^2.0.0-alpha.5"
-    chrono-node "^2.3.7"
-    debug "^4.3.3"
-    p-queue "^6.6.2"
-    steamid "^2.0.0"
-
 csstype@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
@@ -713,12 +678,7 @@ damerau-levenshtein@^1.0.7:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
-dayjs@^1.10.0:
-  version "1.11.3"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.3.tgz#4754eb694a624057b9ad2224b67b15d552589258"
-  integrity sha512-xxwlswWOlGhzgQ4TKzASQkUhqERI3egRNqgV4ScR8wlANA/A9tZ7miXa44vTTKEq5l7vWoL5G57bG3zA+Kow0A==
-
-debug@4, debug@^4.1.1, debug@^4.3.2, debug@^4.3.3, debug@^4.3.4:
+debug@4, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -1071,11 +1031,6 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
-
-eventemitter3@^4.0.4:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
-  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 expand-template@^2.0.3:
   version "2.0.3"
@@ -1782,11 +1737,6 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-p-finally@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/p-finally/-/p-finally-1.0.0.tgz#3fbcfb15b899a44123b34b6dcc18b724336a2cae"
-  integrity sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==
-
 p-limit@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-1.3.0.tgz#b86bd5f0c25690911c7590fcbfc2010d54b3ccb8"
@@ -1800,21 +1750,6 @@ p-locate@^2.0.0:
   integrity sha512-nQja7m7gSKuewoVRen45CtVfODR3crN3goVQ0DDZ9N3yHxgpkuBhZqsaiotSQRrADUrne346peY7kT3TSACykg==
   dependencies:
     p-limit "^1.1.0"
-
-p-queue@^6.6.2:
-  version "6.6.2"
-  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-6.6.2.tgz#2068a9dcf8e67dd0ec3e7a2bcb76810faa85e426"
-  integrity sha512-RwFpb72c/BhQLEXIZ5K2e+AhgNVmIejGlTgiB9MzZ0e93GRvqZ7uSi0dvRF7/XIXDeNkra2fNHBxTyPDGySpjQ==
-  dependencies:
-    eventemitter3 "^4.0.4"
-    p-timeout "^3.2.0"
-
-p-timeout@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/p-timeout/-/p-timeout-3.2.0.tgz#c7e17abc971d2a7962ef83626b35d635acf23dfe"
-  integrity sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==
-  dependencies:
-    p-finally "^1.0.0"
 
 p-try@^1.0.0:
   version "1.0.0"
@@ -2104,11 +2039,6 @@ source-map-js@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
-
-steamid@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/steamid/-/steamid-2.0.0.tgz#6d4a51feb80638c1fe4793be77aa972996f4ad75"
-  integrity sha512-+BFJMbo+IxzyfovLR37E7APkaNfmrL3S+88T7wTMRHnQ6LBhzEawPnjfWNKM9eUL/dH45j+7vhSX4WaGXoa4/Q==
 
 string.prototype.matchall@^4.0.7:
   version "4.0.7"
