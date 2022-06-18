@@ -17,5 +17,5 @@ export default async function listGroupUserIds(groupName) {
 
   const ids = result.memberList.members[0].steamID64
 
-  return ids.map(id => Number(id));
+  return ids
 }
